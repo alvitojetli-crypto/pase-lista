@@ -1,7 +1,10 @@
 const CACHE_NAME = 'pase-lista-v1';
 const urlsToCache = [
-  'pase-lista.html',
-  'manifest.json'
+  './',
+  'index.html',
+  'manifest.json',
+  'icono-192.png',
+  'icono-512.png'
 ];
 
 self.addEventListener('install', event => {
